@@ -1,0 +1,261 @@
+body {
+    color: black;
+    background: white;
+}
+
+.dark-theme{
+    color: white;
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    /* ширина scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+    /* цвет дорожки */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;/*#eee*/
+    /* цвет плашки */
+    border-radius: 20px;
+    /* закругления плашки */
+    border: 3px solid black;
+    /* padding вокруг плашки */
+}
+
+div {
+    margin-bottom: 1.5vh;
+}
+
+.header{
+    display: flex;
+    /*justify-content: center;*/
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: #4b2f89;
+    background-color: white;
+  }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article__img, .restaurant__img {
+    width: 35vw;
+    height: 80vh;
+    box-sizing: border-box;
+    border-width: 2;
+    border-color: #0C0B08;
+    border-style: solid;
+}
+
+.about__header, .projects__header {
+    display: flex;
+    transition: ease-in-out 0.3s;
+    font-size: 20pt;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+ 
+.hdskills, .sfskills {
+    transition: ease-in-out 0.3s;
+    font-size: 16pt;
+}
+
+.about__header:hover, .projects__header:hover {
+    font-size: 26pt;
+}
+
+
+.hdskills:hover, .sfskills:hover {
+    font-size: 20pt;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.projects_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10vw;
+}
+
+.projects__header {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.restaurant {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vw;
+    width: 100vw;
+    margin-top: 7vh;
+}
+
+.footer__links {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    width: 100vw;
+}
+
+.vk, .tg, .github {
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.about__text {
+    gap: 10vw;
+    font-size: 16pt;
+    max-width: 75vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.article__text {
+    font-size: 16pt;
+    margin-left: auto;
+    max-width: 35vw;
+    text-align: center;
+}
+
+.restaurant__text {
+    font-size: 16pt;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header__name {
+    margin-left: auto;
+    margin-right: -13vw;
+    text-align: center;
+    font-size: 26pt;
+    line-height: 20px;
+}
+
+.restaurant__link, .article__link {
+    font-size: 14pt;
+    margin-top: 1vh;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 10vw;
+    height: 4vh;
+    text-align: center;
+    justify-content: center;
+    font-size: 100%;
+}
+
+#toggleMore {
+    display: flex;
+
+}
+
+.main_header {
+    display: flex;
+    flex-direction: row;
+}
+
+#themeSwitcher {
+    margin-right: 3vw;
+    margin-left: auto;
+}
+
+#text {
+    display: flex;
+    justify-content: center;
+    font-size: 16pt;
+}
+
+.slLight{
+    border: 2px solid white;
+}
+
+.slDark{
+    border: 2px solid black;
+}
+
+#sliderImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50vw;
+    height: 80vh;
+}
+
+
+#bigImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}

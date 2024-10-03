@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style2.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <header class="main__header header">
+            <p class="header__name name">Привет, меня зовут Андрей.</p> 
+            <!-- <img src="./assest/Welcome.png" alt="img" class="welcome"> -->
+            <button id="themeSwitcher">Сменить тему</button>
+        </header>
+
+        <div class="main__about about">
+            <h3 class="about__header">О себе</h3>
+            <button class="about__button" id="toggleMore">Показать</button>  
+            <p class="about__text" id="moreInfo" style="display: none">Родился в Новороссийске, сейчас живу в Москве, являюсь студентом Московского технического университета связи и информатики по направлению "Фундаментальная информатика".
+                Увлекаюсь фитнесом, плаванием и петанком. Люблю животных и путешествия. </p>
+        </div>
+
+        <div class="main__projects projects">
+            <h3 class="projects__header">Мои проекты</h3>
+            <div class=slider>
+                <div class="text__slider">
+                    <p id="text">Сайт для ресторана Gerícht</p>
+                </div>
+                <div class="slider__images" id="bigImage">
+                    <button id="prevButton">Назад</button>
+                    <img id="sliderImage" src="./assest/Проект 1.png" alt="Проект 1" />
+                    <button id="nextButton">Вперед</button>
+                </div>
+            </div>
+            <!-- <div class="projects_block">    
+                <div class="projects__article article">
+                        <p class="article__text">Статья для I Всероссийской научной конференции
+                            молодых учёных "Иностранный язык - ключ к успеху"</p>
+                        <img src="./assest/Article.png" alt="img" class="article__img">
+                        <a href="https://vk.com/linguist_tver?w=wall-217669792_213" class="article__link">Ссылка на публикацию</a>
+                    </div>
+                    <div class="projects__restaurant restaurant">
+                        <p class="restaurant__text">Сайт ресторана "Gerícht"</p>
+                        <img src="./assest/Restaurant.png" alt="img" class="restaurant__img">
+                        <a href="https://github.com/AOmarov25/Restaurant" class="restaurant__link">Ссылка на работу</a>
+                    </div>
+            </div> -->
+        </div>
+
+        <div class="main__skills skills">
+            <div class="skills__hard hard">
+                <ul class="hard__hdskills hdskills">Hard skills
+                    <li class="hdskills__item">Языки программирования: Python, C++, Java</li>
+                    <li class="hdskills__item">Работа с БД: PostgreSQL, MySQL, SQLite</li>
+                    <li class="hdskills__item">Навыки тестирования приложений через JUnit, JMeter</li>
+                    <li class="hdskills__item">Знание методологий разработки ПО: Agile, Scrum, Kanban</li>
+            </div>
+        
+            <div class="skills__soft soft">
+                <ul class="soft__sfskills sfskills">Soft skills
+                    <li class="sfskills__item">Лидерство</li>
+                    <li class="sfskills__item">Способность работать в команде</li>
+                    <li class="sfskills__item">Стрессоустойчивость</li>
+                    <li class="sfskills__item">Адаптивность</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__links links">
+            <a href="https://vk.com/andrey.omarov">
+                <img src="./assest/Vk2.png" alt="img" class="vk">
+            </a>
+            <a href="https://t.me/@AndreyOmarov">
+                <img src="./assest/TG.png" alt="img" class="tg" href="t.me/@AndreyOmarov">
+            </a>
+            <a href="https://github.com/AOmarov25">
+                <img src="./assest/Github.png" alt="img" class="github">
+            </a>
+        </div>
+    </footer>   
+
+    <script src="script.js"></script>
+</body>
+
+</html>
